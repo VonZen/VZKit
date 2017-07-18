@@ -1,6 +1,6 @@
 use_frameworks!
 target 'VZKit_Tests' do
   pod 'VZKit', :path => '../'
-  
+  pod 'AFNetworking', '~>3.1.0'
   
 end

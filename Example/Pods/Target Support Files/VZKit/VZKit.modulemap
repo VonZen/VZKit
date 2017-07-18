@@ -1,0 +1,6 @@
+framework module VZKit {
+  umbrella header "VZKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
