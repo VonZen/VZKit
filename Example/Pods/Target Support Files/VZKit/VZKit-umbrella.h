@@ -10,6 +10,9 @@
 #endif
 #endif
 
+#import "VZBaseRequest.h"
+#import "VZNetworkServer.h"
+#import "VZResponseCache.h"
 
 FOUNDATION_EXPORT double VZKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char VZKitVersionString[];

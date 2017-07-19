@@ -1,6 +1,8 @@
 use_frameworks!
+inhibit_all_warnings!
+
 target 'VZKit_Tests' do
   pod 'VZKit', :path => '../'
   pod 'AFNetworking', '~>3.1.0'
-  
+  pod 'MJExtension', '~> 3.0.13'
 end

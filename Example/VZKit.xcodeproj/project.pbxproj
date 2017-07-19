@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		529EF8881F1EF77200515CAD /* VZBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 529EF8831F1EF77200515CAD /* VZBaseRequest.m */; };
+		529EF8891F1EF77200515CAD /* VZNetworkServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 529EF8851F1EF77200515CAD /* VZNetworkServer.m */; };
+		529EF88A1F1EF77200515CAD /* VZResponseCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 529EF8871F1EF77200515CAD /* VZResponseCache.m */; };
 		5BD965DDBB9E3331405C09DD /* Pods_VZKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1101324E309E23F9175DCC9D /* Pods_VZKit_Tests.framework */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -17,8 +20,15 @@
 
 /* Begin PBXFileReference section */
 		1101324E309E23F9175DCC9D /* Pods_VZKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VZKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36CA0ACF1F1F2D3200EDB183 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = "Pods/../build/Debug-iphoneos/AFNetworking/AFNetworking.framework"; sourceTree = "<group>"; };
 		372AE7740565E245A96C5DB2 /* Pods-VZKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VZKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VZKit_Tests/Pods-VZKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		575498A1E371EA663DAED52D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		529EF8821F1EF77200515CAD /* VZBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VZBaseRequest.h; sourceTree = "<group>"; };
+		529EF8831F1EF77200515CAD /* VZBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VZBaseRequest.m; sourceTree = "<group>"; };
+		529EF8841F1EF77200515CAD /* VZNetworkServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VZNetworkServer.h; sourceTree = "<group>"; };
+		529EF8851F1EF77200515CAD /* VZNetworkServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VZNetworkServer.m; sourceTree = "<group>"; };
+		529EF8861F1EF77200515CAD /* VZResponseCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VZResponseCache.h; sourceTree = "<group>"; };
+		529EF8871F1EF77200515CAD /* VZResponseCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VZResponseCache.m; sourceTree = "<group>"; };
+		575498A1E371EA663DAED52D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -28,9 +38,9 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		62D1159AA29B5A94A975301C /* VZKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = VZKit.podspec; path = ../VZKit.podspec; sourceTree = "<group>"; };
+		62D1159AA29B5A94A975301C /* VZKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = VZKit.podspec; path = ../VZKit.podspec; sourceTree = "<group>"; };
 		D874FAD9EBBB1ECC7BDB7E27 /* Pods-VZKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VZKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VZKit_Tests/Pods-VZKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		DB764F5FF836E8C5CFEC0884 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		DB764F5FF836E8C5CFEC0884 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,9 +58,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		529EF8801F1EF77200515CAD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				529EF8811F1EF77200515CAD /* HTTPServer */,
+			);
+			name = Classes;
+			path = ../VZKit/Classes;
+			sourceTree = "<group>";
+		};
+		529EF8811F1EF77200515CAD /* HTTPServer */ = {
+			isa = PBXGroup;
+			children = (
+				529EF8821F1EF77200515CAD /* VZBaseRequest.h */,
+				529EF8831F1EF77200515CAD /* VZBaseRequest.m */,
+				529EF8841F1EF77200515CAD /* VZNetworkServer.h */,
+				529EF8851F1EF77200515CAD /* VZNetworkServer.m */,
+				529EF8861F1EF77200515CAD /* VZResponseCache.h */,
+				529EF8871F1EF77200515CAD /* VZResponseCache.m */,
+			);
+			path = HTTPServer;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				529EF8801F1EF77200515CAD /* Classes */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
@@ -70,6 +103,7 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				36CA0ACF1F1F2D3200EDB183 /* AFNetworking.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -147,11 +181,11 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = VZ;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "davonzhou@live.com";
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
-						TestTargetID = 6003F589195388D20070C39A;
+						DevelopmentTeam = BG68CT3TU6;
 					};
 				};
 			};
@@ -237,7 +271,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				529EF8881F1EF77200515CAD /* VZBaseRequest.m in Sources */,
 				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+				529EF8891F1EF77200515CAD /* VZNetworkServer.m in Sources */,
+				529EF88A1F1EF77200515CAD /* VZResponseCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,19 +300,30 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -303,18 +351,29 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -332,6 +391,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 372AE7740565E245A96C5DB2 /* Pods-VZKit_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = BG68CT3TU6;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -346,7 +406,6 @@
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VZKit_Example.app/VZKit_Example";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
@@ -355,6 +414,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D874FAD9EBBB1ECC7BDB7E27 /* Pods-VZKit_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = BG68CT3TU6;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -365,7 +425,6 @@
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VZKit_Example.app/VZKit_Example";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;

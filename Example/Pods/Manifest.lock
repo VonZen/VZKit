@@ -14,11 +14,14 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
-  - VZKit (0.1.0):
+  - MJExtension (3.0.13)
+  - VZKit (1.1.0):
     - AFNetworking (~> 3.1.0)
+    - MJExtension (~> 3.0.13)
 
 DEPENDENCIES:
   - AFNetworking (~> 3.1.0)
+  - MJExtension (~> 3.0.13)
   - VZKit (from `../`)
 
 EXTERNAL SOURCES:
@@ -27,8 +30,9 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  VZKit: b40255274ca467b8bed745609d94349d3db212df
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  VZKit: 6738bb7c5afef8f1b777888f12df51e833040ddf
 
-PODFILE CHECKSUM: d8384a3492dc5abd20af4f67b3a8ea326525c39a
+PODFILE CHECKSUM: d4af247becc85290dbc09ed567519d8fc316c6e2
 
 COCOAPODS: 1.2.1
