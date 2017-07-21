@@ -20,6 +20,34 @@
 
 /* Begin PBXFileReference section */
 		1101324E309E23F9175DCC9D /* Pods_VZKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VZKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		362EB0431F21F51D00267294 /* VZAlignmentLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VZAlignmentLabel.h; sourceTree = "<group>"; };
+		362EB0441F21F51D00267294 /* VZAlignmentLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VZAlignmentLabel.m; sourceTree = "<group>"; };
+		362EB04D1F21F67700267294 /* UIColor+VZUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+VZUtil.h"; sourceTree = "<group>"; };
+		362EB04E1F21F67700267294 /* UIColor+VZUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+VZUtil.m"; sourceTree = "<group>"; };
+		362EB0531F21F75B00267294 /* VZControlCreator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VZControlCreator.m; sourceTree = "<group>"; };
+		362EB0541F21F75B00267294 /* VZControlCreator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VZControlCreator.h; sourceTree = "<group>"; };
+		362EB0581F21FDA200267294 /* VZListViewDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VZListViewDelegate.h; sourceTree = "<group>"; };
+		362EB05D1F22099500267294 /* VZListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VZListViewController.h; sourceTree = "<group>"; };
+		362EB05E1F22099500267294 /* VZListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VZListViewController.m; sourceTree = "<group>"; };
+		3633665B1F21D22A00A8F5EB /* VZBaseViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VZBaseViewModel.h; sourceTree = "<group>"; };
+		3633665C1F21D22A00A8F5EB /* VZBaseViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VZBaseViewModel.m; sourceTree = "<group>"; };
+		3633665D1F21D22A00A8F5EB /* VZListViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VZListViewModel.h; sourceTree = "<group>"; };
+		3633665E1F21D22A00A8F5EB /* VZListViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VZListViewModel.m; sourceTree = "<group>"; };
+		3633665F1F21D22A00A8F5EB /* VZViewModelRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VZViewModelRouter.h; sourceTree = "<group>"; };
+		363366601F21D22A00A8F5EB /* VZViewModelRouter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VZViewModelRouter.m; sourceTree = "<group>"; };
+		363366611F21D22A00A8F5EB /* VZViewModelService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VZViewModelService.h; sourceTree = "<group>"; };
+		363366621F21D22A00A8F5EB /* VZViewModelService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VZViewModelService.m; sourceTree = "<group>"; };
+		363366701F21D4B900A8F5EB /* VZBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VZBaseViewController.h; sourceTree = "<group>"; };
+		363366711F21D4B900A8F5EB /* VZBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VZBaseViewController.m; sourceTree = "<group>"; };
+		363366721F21D4B900A8F5EB /* VZCellDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VZCellDelegate.h; sourceTree = "<group>"; };
+		363366731F21D4B900A8F5EB /* VZCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VZCollectionViewCell.h; sourceTree = "<group>"; };
+		363366741F21D4B900A8F5EB /* VZCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VZCollectionViewCell.m; sourceTree = "<group>"; };
+		363366751F21D4B900A8F5EB /* VZCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VZCollectionViewController.h; sourceTree = "<group>"; };
+		363366761F21D4B900A8F5EB /* VZCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VZCollectionViewController.m; sourceTree = "<group>"; };
+		363366771F21D4B900A8F5EB /* VZTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VZTableViewCell.h; sourceTree = "<group>"; };
+		363366781F21D4B900A8F5EB /* VZTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VZTableViewCell.m; sourceTree = "<group>"; };
+		363366791F21D4B900A8F5EB /* VZTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VZTableViewController.h; sourceTree = "<group>"; };
+		3633667A1F21D4B900A8F5EB /* VZTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VZTableViewController.m; sourceTree = "<group>"; };
 		36CA0ACF1F1F2D3200EDB183 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = "Pods/../build/Debug-iphoneos/AFNetworking/AFNetworking.framework"; sourceTree = "<group>"; };
 		372AE7740565E245A96C5DB2 /* Pods-VZKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VZKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VZKit_Tests/Pods-VZKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		529EF8821F1EF77200515CAD /* VZBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VZBaseRequest.h; sourceTree = "<group>"; };
@@ -58,9 +86,77 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		362EB0421F21F51D00267294 /* VZUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				362EB0541F21F75B00267294 /* VZControlCreator.h */,
+				362EB0531F21F75B00267294 /* VZControlCreator.m */,
+				362EB0431F21F51D00267294 /* VZAlignmentLabel.h */,
+				362EB0441F21F51D00267294 /* VZAlignmentLabel.m */,
+			);
+			path = VZUIKit;
+			sourceTree = "<group>";
+		};
+		362EB04B1F21F67700267294 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				362EB04C1F21F67700267294 /* Category */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		362EB04C1F21F67700267294 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				362EB04D1F21F67700267294 /* UIColor+VZUtil.h */,
+				362EB04E1F21F67700267294 /* UIColor+VZUtil.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		3633665A1F21D22A00A8F5EB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3633665B1F21D22A00A8F5EB /* VZBaseViewModel.h */,
+				3633665C1F21D22A00A8F5EB /* VZBaseViewModel.m */,
+				3633665D1F21D22A00A8F5EB /* VZListViewModel.h */,
+				3633665E1F21D22A00A8F5EB /* VZListViewModel.m */,
+				3633665F1F21D22A00A8F5EB /* VZViewModelRouter.h */,
+				363366601F21D22A00A8F5EB /* VZViewModelRouter.m */,
+				363366611F21D22A00A8F5EB /* VZViewModelService.h */,
+				363366621F21D22A00A8F5EB /* VZViewModelService.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3633666F1F21D4B900A8F5EB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				362EB05D1F22099500267294 /* VZListViewController.h */,
+				362EB05E1F22099500267294 /* VZListViewController.m */,
+				363366721F21D4B900A8F5EB /* VZCellDelegate.h */,
+				362EB0581F21FDA200267294 /* VZListViewDelegate.h */,
+				363366701F21D4B900A8F5EB /* VZBaseViewController.h */,
+				363366711F21D4B900A8F5EB /* VZBaseViewController.m */,
+				363366771F21D4B900A8F5EB /* VZTableViewCell.h */,
+				363366781F21D4B900A8F5EB /* VZTableViewCell.m */,
+				363366731F21D4B900A8F5EB /* VZCollectionViewCell.h */,
+				363366741F21D4B900A8F5EB /* VZCollectionViewCell.m */,
+				363366751F21D4B900A8F5EB /* VZCollectionViewController.h */,
+				363366761F21D4B900A8F5EB /* VZCollectionViewController.m */,
+				363366791F21D4B900A8F5EB /* VZTableViewController.h */,
+				3633667A1F21D4B900A8F5EB /* VZTableViewController.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		529EF8801F1EF77200515CAD /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				362EB04B1F21F67700267294 /* Utils */,
+				362EB0421F21F51D00267294 /* VZUIKit */,
+				3633666F1F21D4B900A8F5EB /* View */,
+				3633665A1F21D22A00A8F5EB /* ViewModel */,
 				529EF8811F1EF77200515CAD /* HTTPServer */,
 			);
 			name = Classes;
