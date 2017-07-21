@@ -7,7 +7,7 @@
 
 #import "VZCollectionViewCell.h"
 #import "VZAlignmentLabel.h"
-#import "Masonry.h"
+#import <Masonry/Masonry.h>
 #import "UIColor+VZUtil.h"
 #import "VZControlCreator.h"
 
@@ -30,6 +30,10 @@
     
     return self;
 }
+
+- (void)createSubview{}
+
+- (void)setModel:(id)model{}
 
 - (UILabel *)titleLabel
 {

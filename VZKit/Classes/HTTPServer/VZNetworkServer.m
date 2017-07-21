@@ -189,7 +189,7 @@
         
         if (request.responseClass) {
             if (request.retCodeOk) {
-                request.responseObject = [request.responseClass objectWithKeyValues:responseDic];
+                request.responseObject = [request.responseClass mj_objectWithKeyValues:responseDic];
                 
                 //cache object
                 if ((!request.isResponseFromCache) && request.cacheInterval > 0) {
@@ -223,7 +223,7 @@
 
 - (void)handleCacheResponse:(id)responseObject withRequest:(VZBaseRequest *)request{
     NSDictionary *responseDic = (NSDictionary *)responseObject;
-    request.responseObject = [request.responseClass objectWithKeyValues:responseDic];
+    request.responseObject = [request.responseClass mj_objectWithKeyValues:responseDic];
     
     if (request.completeBlock) {
         request.completeBlock(request);

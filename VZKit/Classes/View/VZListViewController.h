@@ -7,11 +7,11 @@
 
 #import "VZBaseViewController.h"
 #import "VZListViewModel.h"
-#import "MJRefresh.h"
-#import "Masonry.h"
-#import "UIColor+VZUtil.h"
+#import <MJRefresh/MJRefresh.h>
+#import <Masonry/Masonry.h>
+#import "UIColor+VZUtil.h" 
 #import "VZListViewDelegate.h"
-#import "UIScrollView+EmptyDataSet.h"
+#import <DZNEmptyDataSet/UIScrollView+EmptyDataSet.h>
 
 @interface VZListViewController : VZBaseViewController
 <VZListViewDelegate,

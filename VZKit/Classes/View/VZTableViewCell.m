@@ -7,7 +7,7 @@
 
 #import "VZTableViewCell.h"
 #import "VZAlignmentLabel.h"
-#import "Masonry.h"
+#import <Masonry/Masonry.h>
 #import "UIColor+VZUtil.h"
 #import "VZControlCreator.h"
 
@@ -51,6 +51,8 @@
         make.height.mas_equalTo(self.separatorHeight);
     }];
 }
+
+- (void)setModel:(id)model{}
 
 //http://stackoverflow.com/questions/14468449/the-selectedbackgroundview-modifies-the-contentview-subviews
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated

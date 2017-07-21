@@ -7,7 +7,7 @@
 
 #import <Foundation/Foundation.h>
 #import "VZViewModelService.h"
-#import "ReactiveObjC.h"
+#import <ReactiveObjC/ReactiveObjC.h>
 
 @interface VZBaseViewModel : NSObject
 

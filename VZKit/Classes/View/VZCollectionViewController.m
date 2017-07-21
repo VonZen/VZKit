@@ -7,9 +7,7 @@
 
 #import "VZCollectionViewController.h"
 #import "VZListViewModel.h"
-#import "VZCollectionViewCell.h"
-#import "MJRefresh.h"
-#import "Masonry.h"
+#import "VZCollectionViewCell.h" 
 #import "UIColor+VZUtil.h"
 
 @interface VZCollectionViewController ()

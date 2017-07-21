@@ -18,6 +18,7 @@
 #import "VZCellDelegate.h"
 #import "VZCollectionViewCell.h"
 #import "VZCollectionViewController.h"
+#import "VZListViewController.h"
 #import "VZListViewDelegate.h"
 #import "VZTableViewCell.h"
 #import "VZTableViewController.h"

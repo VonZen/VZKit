@@ -19,7 +19,7 @@ PODS:
   - MJExtension (3.0.13)
   - MJRefresh (3.1.12)
   - ReactiveObjC (3.0.0)
-  - VZKit (1.1.0):
+  - VZKit (1.2.0):
     - AFNetworking (~> 3.1.0)
     - DZNEmptyDataSet (~> 1.8.1)
     - Masonry (~> 1.0.2)
@@ -47,7 +47,7 @@ SPEC CHECKSUMS:
   MJExtension: 5932755f451458eefa24239358817f8d291240c7
   MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
   ReactiveObjC: ce79989e8684b9086b5f8d0c74bc7b81a8729c9e
-  VZKit: 8361029c69f9acd185a97db6bacbb636ed289123
+  VZKit: df3af7418593aec3f5219b986897a949178f93c9
 
 PODFILE CHECKSUM: 56f11af16fa01242229e907283f30361dd6eb0c7
 
