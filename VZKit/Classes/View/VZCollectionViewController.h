@@ -7,9 +7,8 @@
 
 #import "VZListViewController.h"
 
-@interface VZCollectionViewController : VZListViewController
-<DZNEmptyDataSetSource,
-DZNEmptyDataSetDelegate> 
+@interface VZCollectionViewController : VZListViewController<UICollectionViewDelegate,
+UICollectionViewDataSource>
 
 - (CGSize)itemSize;
 
