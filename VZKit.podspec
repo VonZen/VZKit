@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'VZKit'
-  s.version          = '1.3.1'
+  s.version          = '1.3.2'
   s.summary          = 'VZKit is a kit for develop iOS app.'
 
 

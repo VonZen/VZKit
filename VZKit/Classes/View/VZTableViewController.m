@@ -62,7 +62,12 @@
     }
     
     return _listView;
-}  
+}
+
+- (void)reloadData
+{
+    [self.listView reloadData];
+}
 
 #pragma mark - UITableViewDataSource
 

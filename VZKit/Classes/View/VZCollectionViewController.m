@@ -69,6 +69,11 @@
     return UIEdgeInsetsZero;
 }
 
+- (void)reloadData
+{
+    [self.listView reloadData];
+}
+
 #pragma mark - UICollectionViewDelegate
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
 {
