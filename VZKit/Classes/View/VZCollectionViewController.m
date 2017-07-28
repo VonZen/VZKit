@@ -81,7 +81,7 @@
     UITableViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:ci forIndexPath:indexPath];
     
     id object = self.viewModel.dataSource[indexPath.row];
-    [self configureCell:cell atIndexPath:indexPath withObject:(id)object];
+    [self configureCollectionViewCell:cell atIndexPath:indexPath withObject:(id)object];
     
     return cell;
 }

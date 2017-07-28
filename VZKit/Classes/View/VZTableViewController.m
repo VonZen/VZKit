@@ -75,7 +75,7 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:ci forIndexPath:indexPath];
     
     id object = self.viewModel.dataSource[indexPath.row];
-    [self configureCell:cell atIndexPath:indexPath withObject:(id)object];
+    [self configureTableViewCell:cell atIndexPath:indexPath withObject:(id)object];
     
     return cell;
 }

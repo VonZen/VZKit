@@ -20,5 +20,7 @@
 
 - (float)sectionHeight; 
 
-- (void)configureCell:(UITableViewCell *)cell atIndexPath:(NSIndexPath *)indexpath withObject:(id)object;
+- (void)configureTableViewCell:(UITableViewCell *)cell atIndexPath:(NSIndexPath *)indexpath withObject:(id)object;
+
+- (void)configureCollectionViewCell:(UICollectionViewCell *)cell atIndexPath:(NSIndexPath *)indexpath withObject:(id)object;
 @end
