@@ -57,12 +57,13 @@
 
 - (void)createSubview
 {
+    self.view.backgroundColor = [UIColor whiteColor];
     [self.view addSubview:self.listView];
     
     [self.listView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.left.right.equalTo(self.view);
-        make.top.equalTo(self.view.mas_top);
-        make.bottom.equalTo(self.view.mas_bottom);
+        make.top.equalTo(self.mas_topLayoutGuide);
+        make.bottom.equalTo(self.mas_bottomLayoutGuide);
     }];
     
     if (self.viewModel.shouldPullToRefresh) {

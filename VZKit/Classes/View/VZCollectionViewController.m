@@ -50,8 +50,7 @@
         
         _listView = [[UICollectionView alloc] initWithFrame:self.view.bounds collectionViewLayout:flowLayout];
         _listView.showsVerticalScrollIndicator = NO;
-        _listView.layer.masksToBounds = YES;
-        _listView.layer.cornerRadius = 10;
+        _listView.backgroundColor = [UIColor clearColor];
         _listView.contentInset = [self contentInset];
         _listView.delegate = self;
         _listView.dataSource = self;
@@ -89,6 +88,11 @@
     [self configureCollectionViewCell:cell atIndexPath:indexPath withObject:(id)object];
     
     return cell;
+}
+
+-(CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath
+{
+    return [self itemSize];
 }
 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
