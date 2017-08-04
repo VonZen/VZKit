@@ -93,13 +93,7 @@
         }
         
         VZTagView *tagView = [[VZTagView alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 10)];
-        NSMutableArray<VZTag *> *tags = [NSMutableArray new];
-        for (NSString *keyword in self.viewModel.hotKeywords) {
-            VZTag *tag = [VZTag new];
-            tag.title = keyword;
-            [tags addObject:tag];
-        }
-        tagView.dataSource = tags;
+        tagView.dataSource = self.viewModel.hotKeywords;
         [tagView initContent];
         [cell.contentView addSubview:tagView];
         tagView.frame = CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, tagView.viewHeight);

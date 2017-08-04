@@ -109,7 +109,6 @@
 		369998431F3313DF00603FD3 /* VZSearchHistoryAndHotViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 369998411F3313DF00603FD3 /* VZSearchHistoryAndHotViewModel.h */; };
 		369998441F3313DF00603FD3 /* VZSearchHistoryAndHotViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 369998421F3313DF00603FD3 /* VZSearchHistoryAndHotViewModel.m */; };
 		36ABE804375596F34EA966A49CFB5DFE /* MJExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7968DF50389E5B9C93E9BD82C381AE /* MJExtension-dummy.m */; };
-		36C3F5D91F340FC000D1DE71 /* VZTag.h in Headers */ = {isa = PBXBuildFile; fileRef = 36C3F5D81F340FC000D1DE71 /* VZTag.h */; };
 		383448308BB9C5CB67073E0A8DED4A43 /* NSObject+MJProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 25D1DE7D1E75506C7E9DEF446484905C /* NSObject+MJProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		38CE88F20A27748EB841B690B1FE6343 /* MJRefreshAutoGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = CE788535F42DA9AD72DF72C812020E63 /* MJRefreshAutoGifFooter.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		38E0CD63021889EE46E1A6B9FA0415F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D6041B191E230F145D7D674210692D1 /* UIKit.framework */; };
@@ -635,7 +634,6 @@
 		369998411F3313DF00603FD3 /* VZSearchHistoryAndHotViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VZSearchHistoryAndHotViewModel.h; sourceTree = "<group>"; };
 		369998421F3313DF00603FD3 /* VZSearchHistoryAndHotViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VZSearchHistoryAndHotViewModel.m; sourceTree = "<group>"; };
 		36A59E2ABA4BB0CBB11307C0421006FF /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
-		36C3F5D81F340FC000D1DE71 /* VZTag.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VZTag.h; sourceTree = "<group>"; };
 		3714C8876A364A25AD72F85894792BD4 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
 		37932EE8D8169E062FAF5AEF149AA14A /* VZBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = VZBaseViewController.m; sourceTree = "<group>"; };
 		3812375096F5F3B580D3A2B01ABFCE24 /* VZCollectionViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = VZCollectionViewCell.m; sourceTree = "<group>"; };
@@ -1766,7 +1764,6 @@
 				D82F0C2C87D1DFEA8B9DD7B460EDAD30 /* VZControlCreator.m */,
 				369998031F32C25200603FD3 /* VZTagView.h */,
 				369998041F32C25200603FD3 /* VZTagView.m */,
-				36C3F5D81F340FC000D1DE71 /* VZTag.h */,
 			);
 			path = VZUIKit;
 			sourceTree = "<group>";
@@ -1934,7 +1931,6 @@
 				229DBA34B1CD5EC6753588B1A0260700 /* VZCollectionViewController.h in Headers */,
 				A049EC7DB364E71B53FAE4568AFAF3F5 /* VZControlCreator.h in Headers */,
 				FC539CCB4D749C2EA33072C8451D479B /* VZKit-umbrella.h in Headers */,
-				36C3F5D91F340FC000D1DE71 /* VZTag.h in Headers */,
 				D31402223DF49053ABD14BDF10E2D59F /* VZListViewController.h in Headers */,
 				3699980C1F32D18A00603FD3 /* UIImage+VZUtil.h in Headers */,
 				369998431F3313DF00603FD3 /* VZSearchHistoryAndHotViewModel.h in Headers */,

@@ -50,21 +50,16 @@
         
         button.layer.borderWidth = 1;
         
-        [button setTitle:self.dataSource[i].title forState:UIControlStateNormal];
-        
-        if (self.dataSource[i].isSpecial) {
-            [button setTitleColor:self.specialTintColor forState:UIControlStateNormal];
-            button.layer.borderColor = self.specialTintColor.CGColor;
-        }else{
-            [button setTitleColor:self.tintColor forState:UIControlStateNormal];
-            button.layer.borderColor = self.borderColor.CGColor;
-        }
+        [button setTitle:self.dataSource[i] forState:UIControlStateNormal];
+        [button setTitleColor:self.tintColor forState:UIControlStateNormal];
+        button.layer.borderColor = self.borderColor.CGColor;
         
         [button setBackgroundImage:[UIImage createImageFromColor:self.selectedBackgroundColor] forState:UIControlStateHighlighted];
+    
         [button setBackgroundImage:[UIImage createImageFromColor:self.selectedBackgroundColor] forState:UIControlStateSelected];
         [button addTarget:self action:@selector(buttonTaped:) forControlEvents:UIControlEventTouchUpInside];
         
-        CGSize titleSize = [self.dataSource[i].title boundingRectWithSize:CGSizeMake(self.bounds.size.width - self.tagMargin * 2, self.titleSize)
+        CGSize titleSize = [self.dataSource[i] boundingRectWithSize:CGSizeMake(self.bounds.size.width - self.tagMargin * 2, self.titleSize)
                                                        options:NSStringDrawingTruncatesLastVisibleLine
                             | NSStringDrawingUsesLineFragmentOrigin
                             | NSStringDrawingUsesFontLeading

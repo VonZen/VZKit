@@ -6,7 +6,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "VZTag.h"
 
 @protocol  VZTagViewDelegate<NSObject>
 
@@ -18,7 +17,7 @@
 
 @property (nonatomic, weak) id<VZTagViewDelegate> delegate;
 
-@property (nonatomic, copy) NSArray<VZTag *> *dataSource;
+@property (nonatomic, copy) NSArray<NSString *> *dataSource;
 
 @property (nonatomic, assign) float tagMargin;
 
