@@ -6,7 +6,7 @@
 //
 
 #import "NSString+VZUtil.h"
-#import "NSData+AES.h"
+#import "NSData+VZUtil.h"
 
 @implementation NSString (VZUtil)
 

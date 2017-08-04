@@ -26,6 +26,7 @@
         _menuAlpha = 0.8f;
         _arrowImage = [UIImage imageNamed:@"icon_arrow_down"];
         _arrowPadding = 12.0f;
+        _isItemSquare = NO;
         _mainColor = [UIColor colorWithRed:0 green:0 blue:0 alpha:0.3];
     }
     

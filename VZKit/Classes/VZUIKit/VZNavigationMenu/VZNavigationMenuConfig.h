@@ -19,6 +19,8 @@
 
 @property (nonatomic, assign) float itemHeight;
 
+@property (nonatomic, assign) BOOL isItemSquare;
+
 @property (nonatomic, assign) float itemMargin;
 
 @property (nonatomic, assign) float animationDuration;
