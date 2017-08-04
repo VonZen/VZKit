@@ -109,6 +109,16 @@
 		369998431F3313DF00603FD3 /* VZSearchHistoryAndHotViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 369998411F3313DF00603FD3 /* VZSearchHistoryAndHotViewModel.h */; };
 		369998441F3313DF00603FD3 /* VZSearchHistoryAndHotViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 369998421F3313DF00603FD3 /* VZSearchHistoryAndHotViewModel.m */; };
 		36ABE804375596F34EA966A49CFB5DFE /* MJExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7968DF50389E5B9C93E9BD82C381AE /* MJExtension-dummy.m */; };
+		36C3F5E21F341E6B00D1DE71 /* UILabel+VZUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 36C3F5E01F341E6B00D1DE71 /* UILabel+VZUtil.h */; };
+		36C3F5E31F341E6B00D1DE71 /* UILabel+VZUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 36C3F5E11F341E6B00D1DE71 /* UILabel+VZUtil.m */; };
+		36C3F5E61F341E9C00D1DE71 /* NSDictionary+VZUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 36C3F5E41F341E9C00D1DE71 /* NSDictionary+VZUtil.h */; };
+		36C3F5E71F341E9C00D1DE71 /* NSDictionary+VZUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 36C3F5E51F341E9C00D1DE71 /* NSDictionary+VZUtil.m */; };
+		36C3F5EA1F341F0800D1DE71 /* NSString+VZUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 36C3F5E81F341F0800D1DE71 /* NSString+VZUtil.h */; };
+		36C3F5EB1F341F0800D1DE71 /* NSString+VZUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 36C3F5E91F341F0800D1DE71 /* NSString+VZUtil.m */; };
+		36C3F5EE1F341F4600D1DE71 /* UITextView+PlaceHolder.h in Headers */ = {isa = PBXBuildFile; fileRef = 36C3F5EC1F341F4600D1DE71 /* UITextView+PlaceHolder.h */; };
+		36C3F5EF1F341F4600D1DE71 /* UITextView+PlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 36C3F5ED1F341F4600D1DE71 /* UITextView+PlaceHolder.m */; };
+		36C3F5F21F341FC800D1DE71 /* NSData+VZUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 36C3F5F01F341FC800D1DE71 /* NSData+VZUtil.h */; };
+		36C3F5F31F341FC800D1DE71 /* NSData+VZUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 36C3F5F11F341FC800D1DE71 /* NSData+VZUtil.m */; };
 		383448308BB9C5CB67073E0A8DED4A43 /* NSObject+MJProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 25D1DE7D1E75506C7E9DEF446484905C /* NSObject+MJProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		38CE88F20A27748EB841B690B1FE6343 /* MJRefreshAutoGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = CE788535F42DA9AD72DF72C812020E63 /* MJRefreshAutoGifFooter.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		38E0CD63021889EE46E1A6B9FA0415F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D6041B191E230F145D7D674210692D1 /* UIKit.framework */; };
@@ -634,6 +644,16 @@
 		369998411F3313DF00603FD3 /* VZSearchHistoryAndHotViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VZSearchHistoryAndHotViewModel.h; sourceTree = "<group>"; };
 		369998421F3313DF00603FD3 /* VZSearchHistoryAndHotViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VZSearchHistoryAndHotViewModel.m; sourceTree = "<group>"; };
 		36A59E2ABA4BB0CBB11307C0421006FF /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		36C3F5E01F341E6B00D1DE71 /* UILabel+VZUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+VZUtil.h"; sourceTree = "<group>"; };
+		36C3F5E11F341E6B00D1DE71 /* UILabel+VZUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+VZUtil.m"; sourceTree = "<group>"; };
+		36C3F5E41F341E9C00D1DE71 /* NSDictionary+VZUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+VZUtil.h"; sourceTree = "<group>"; };
+		36C3F5E51F341E9C00D1DE71 /* NSDictionary+VZUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+VZUtil.m"; sourceTree = "<group>"; };
+		36C3F5E81F341F0800D1DE71 /* NSString+VZUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+VZUtil.h"; sourceTree = "<group>"; };
+		36C3F5E91F341F0800D1DE71 /* NSString+VZUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+VZUtil.m"; sourceTree = "<group>"; };
+		36C3F5EC1F341F4600D1DE71 /* UITextView+PlaceHolder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextView+PlaceHolder.h"; sourceTree = "<group>"; };
+		36C3F5ED1F341F4600D1DE71 /* UITextView+PlaceHolder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextView+PlaceHolder.m"; sourceTree = "<group>"; };
+		36C3F5F01F341FC800D1DE71 /* NSData+VZUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+VZUtil.h"; sourceTree = "<group>"; };
+		36C3F5F11F341FC800D1DE71 /* NSData+VZUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+VZUtil.m"; sourceTree = "<group>"; };
 		3714C8876A364A25AD72F85894792BD4 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
 		37932EE8D8169E062FAF5AEF149AA14A /* VZBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = VZBaseViewController.m; sourceTree = "<group>"; };
 		3812375096F5F3B580D3A2B01ABFCE24 /* VZCollectionViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = VZCollectionViewCell.m; sourceTree = "<group>"; };
@@ -1083,6 +1103,16 @@
 				F5853177E2E6E5AAEBF2D80F44289B98 /* UIColor+VZUtil.m */,
 				3699980A1F32D18A00603FD3 /* UIImage+VZUtil.h */,
 				3699980B1F32D18A00603FD3 /* UIImage+VZUtil.m */,
+				36C3F5E01F341E6B00D1DE71 /* UILabel+VZUtil.h */,
+				36C3F5E11F341E6B00D1DE71 /* UILabel+VZUtil.m */,
+				36C3F5E41F341E9C00D1DE71 /* NSDictionary+VZUtil.h */,
+				36C3F5E51F341E9C00D1DE71 /* NSDictionary+VZUtil.m */,
+				36C3F5E81F341F0800D1DE71 /* NSString+VZUtil.h */,
+				36C3F5E91F341F0800D1DE71 /* NSString+VZUtil.m */,
+				36C3F5EC1F341F4600D1DE71 /* UITextView+PlaceHolder.h */,
+				36C3F5ED1F341F4600D1DE71 /* UITextView+PlaceHolder.m */,
+				36C3F5F01F341FC800D1DE71 /* NSData+VZUtil.h */,
+				36C3F5F11F341FC800D1DE71 /* NSData+VZUtil.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -1920,13 +1950,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				72B21848CCA4C6D94294527456B07B0A /* UIColor+VZUtil.h in Headers */,
+				36C3F5F21F341FC800D1DE71 /* NSData+VZUtil.h in Headers */,
+				36C3F5E21F341E6B00D1DE71 /* UILabel+VZUtil.h in Headers */,
 				7E4705F77666080F8B07F1601974D160 /* VZAlignmentLabel.h in Headers */,
+				36C3F5EA1F341F0800D1DE71 /* NSString+VZUtil.h in Headers */,
 				369998181F32F77200603FD3 /* VZMenuButton.h in Headers */,
 				BA53EAFF382460F4E07A1CDE7A2402E0 /* VZBaseRequest.h in Headers */,
 				6611929D6F12BD4134482A015E95A381 /* VZBaseViewController.h in Headers */,
 				369998051F32C25200603FD3 /* VZTagView.h in Headers */,
 				7831783DAFD8694D6BB6C1F3A0E5EAB5 /* VZBaseViewModel.h in Headers */,
 				177F4F2FEBF9CE12779D011DB2AF6D39 /* VZCellDelegate.h in Headers */,
+				36C3F5EE1F341F4600D1DE71 /* UITextView+PlaceHolder.h in Headers */,
 				2D83561860CE2A10949AA5A80C3C3481 /* VZCollectionViewCell.h in Headers */,
 				229DBA34B1CD5EC6753588B1A0260700 /* VZCollectionViewController.h in Headers */,
 				A049EC7DB364E71B53FAE4568AFAF3F5 /* VZControlCreator.h in Headers */,
@@ -1945,6 +1979,7 @@
 				3699983F1F3313AA00603FD3 /* VZSearchHistoryCell.h in Headers */,
 				369998231F32F9AF00603FD3 /* VZMenuCellDelegate.h in Headers */,
 				369998201F32F7F800603FD3 /* VZNavigationMenuConfig.h in Headers */,
+				36C3F5E61F341E9C00D1DE71 /* NSDictionary+VZUtil.h in Headers */,
 				3CD1FFC6902012EBAE2DEFF2DA825D8A /* VZTableViewController.h in Headers */,
 				369998141F32F5C000603FD3 /* VZNavigationMenu.h in Headers */,
 				481B43372743059938D3105B1A3638C2 /* VZViewModelRouter.h in Headers */,
@@ -2251,6 +2286,7 @@
 				369998191F32F77200603FD3 /* VZMenuButton.m in Sources */,
 				7BB92F5829D0F939590EC4E3EFDDF266 /* UIColor+VZUtil.m in Sources */,
 				369998401F3313AA00603FD3 /* VZSearchHistoryCell.m in Sources */,
+				36C3F5EB1F341F0800D1DE71 /* NSString+VZUtil.m in Sources */,
 				A040D958EF57F2725128FCF24C528E80 /* VZAlignmentLabel.m in Sources */,
 				437A31D35F51791C026B6B4E47A29F60 /* VZBaseRequest.m in Sources */,
 				369998211F32F7F800603FD3 /* VZNavigationMenuConfig.m in Sources */,
@@ -2258,6 +2294,7 @@
 				40D66C9C7CFF22FE27E52874DC22F156 /* VZBaseViewController.m in Sources */,
 				369998271F32FE7000603FD3 /* VZNavigationMenuCell.m in Sources */,
 				E1F113ED7EDF160590481ABB0B5E8A0C /* VZBaseViewModel.m in Sources */,
+				36C3F5EF1F341F4600D1DE71 /* UITextView+PlaceHolder.m in Sources */,
 				78B94D7AA36921F170A74BDA35A71BDA /* VZCollectionViewCell.m in Sources */,
 				A5B3208C3DA722B2BDABC93B4624717C /* VZCollectionViewController.m in Sources */,
 				369998061F32C25200603FD3 /* VZTagView.m in Sources */,
@@ -2268,12 +2305,15 @@
 				3699980D1F32D18A00603FD3 /* UIImage+VZUtil.m in Sources */,
 				6C58094A36E21947C14D9C2174C19391 /* VZListViewModel.m in Sources */,
 				240766C71192CF2FE027CA952F5664FC /* VZNetworkServer.m in Sources */,
+				36C3F5E71F341E9C00D1DE71 /* NSDictionary+VZUtil.m in Sources */,
 				369998151F32F5C000603FD3 /* VZNavigationMenu.m in Sources */,
 				E4B1FEB2C78CA4D210F490E13B6FC17F /* VZResponseCache.m in Sources */,
+				36C3F5E31F341E6B00D1DE71 /* UILabel+VZUtil.m in Sources */,
 				3699981D1F32F7DF00603FD3 /* VZMenuCollectionView.m in Sources */,
 				0C38EC82B316BB7884D5A89AE240E8CC /* VZTableViewCell.m in Sources */,
 				D853B0E7A732A10B23069D45F9B00995 /* VZTableViewController.m in Sources */,
 				86E1CB3CF1D4A5FAF902B42EC3C65A67 /* VZViewModelRouter.m in Sources */,
+				36C3F5F31F341FC800D1DE71 /* NSData+VZUtil.m in Sources */,
 				F1E990DEBFADEDCED6347DD446C72BCC /* VZViewModelService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
