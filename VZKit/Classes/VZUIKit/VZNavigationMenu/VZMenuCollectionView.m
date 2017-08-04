@@ -65,7 +65,7 @@
             startFrame.size.height = rowNum *self.config.itemHeight +self.offsetYForAnimate;
             endFrame.size.height = rowNum *self.config.itemHeight +self.offsetYForAnimate;
         }else{
-            float itemSideLength = ([UIScreen mainScreen].bounds.size.width - (self.config.maxCountOfItemInRow+1)*cellMargin)/self.config.maxCountOfItemInRow;
+            int itemSideLength = ([UIScreen mainScreen].bounds.size.width - (self.config.maxCountOfItemInRow+1)*cellMargin)/self.config.maxCountOfItemInRow;
             flowLayout.itemSize = CGSizeMake(itemSideLength, (self.config.isItemSquare? itemSideLength : self.config.itemHeight));
             flowLayout.minimumInteritemSpacing = cellMargin;
             flowLayout.minimumLineSpacing = cellMargin;
