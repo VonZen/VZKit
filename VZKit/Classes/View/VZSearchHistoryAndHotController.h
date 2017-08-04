@@ -16,6 +16,6 @@
 @end
 @interface VZSearchHistoryAndHotController : VZTableViewController
 
-@property (nonatomic, weak) id<FsProgrammeSearchHotAndHistoryControllerDelegate> delegate; 
+@property (nonatomic, weak) id<VZSearchHistoryAndHotControllerDelegate> delegate; 
 
 @end

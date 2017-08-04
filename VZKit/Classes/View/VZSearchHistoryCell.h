@@ -10,7 +10,7 @@
 @class VZSearchHistoryCell;
 @protocol VZSearchHistoryCellDelegate <NSObject>
 
-- (void)deleteHistoryCell:(FsSearchHistoryCell *)cell;
+- (void)deleteHistoryCell:(VZSearchHistoryCell *)cell;
 
 @end
 

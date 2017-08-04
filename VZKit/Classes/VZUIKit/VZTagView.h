@@ -6,13 +6,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface VZTag: NSObject
-
-@property (nonatomic, copy) NSString *title;
-@property (nonatomic, assign) BOOL  isSpecial;
-
-@end
+#import "VZTag.h"
 
 @protocol  VZTagViewDelegate<NSObject>
 
