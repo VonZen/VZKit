@@ -129,7 +129,7 @@
 {
     if (!_separator) {
         _separator = [UIView new];
-        _separator.backgroundColor = [UIColor colorWithHexString:@"#333333"];
+        _separator.backgroundColor = [UIColor colorWithHexString:@"#999999"];
     }
     
     return _separator;

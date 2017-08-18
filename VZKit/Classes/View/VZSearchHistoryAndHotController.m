@@ -27,6 +27,7 @@
     if (self = [super initWithViewModel:viewModel]) {
         self.emptyContentTips = @"Nothing";
         self.automaticallyAdjustsScrollViewInsets = NO;
+        self.listView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever; 
     }
     
     return self;
@@ -50,7 +51,11 @@
     [super bindViewModel];
     
     @weakify(self)
-    [[[RACObserve(self.viewModel, searchHistorys) distinctUntilChanged] deliverOnMainThread] subscribeNext:^(id  _Nullable x) {
+    [[RACObserve(self.viewModel, searchHistorys) deliverOnMainThread] subscribeNext:^(id  _Nullable x) {
+        @strongify(self)
+        [self reloadData];
+    }];
+    [[RACObserve(self.viewModel, hotKeywords) deliverOnMainThread] subscribeNext:^(id  _Nullable x) {
         @strongify(self)
         [self reloadData];
     }];
@@ -107,7 +112,7 @@
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     if (indexPath.section == 0) {
-        return self.viewModel.searchHistorys.count >0 ? 45 : 0;
+        return self.viewModel.searchHistorys.count >0 ? 45 : 0.01;
     }else{
         return self.tagView.viewHeight;
     }
@@ -154,6 +159,10 @@
     }
 }
 
+- (void)addHistoryItem:(NSString *)keyword{
+    [self.viewModel addHistoryItem:keyword];
+}
+
 #pragma mark - FsSearchHistoryCellDelegate
 - (void)deleteHistoryCell:(VZSearchHistoryCell *)cell
 {
@@ -169,4 +178,5 @@
         [self.delegate clickedHotItem:keyword];
     }
 }
+
 @end

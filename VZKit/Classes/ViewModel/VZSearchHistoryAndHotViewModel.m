@@ -18,12 +18,13 @@
     self.dataSource = [@[self.searchHistorys, self.hotKeywords] mutableCopy];
     self.shouldPullToRefresh = NO;
     self.shouldInfiniteScrolling = NO;
+    
+    [self initSearchHistoryData];
 }
 
 - (RACSignal *)fetchDataSignalWithPage:(NSUInteger)page
 {
-    return [RACSignal createSignal:^RACDisposable * _Nullable(id<RACSubscriber>  _Nonnull subscriber) {
-        [self initSearchHistoryData];
+    return [RACSignal createSignal:^RACDisposable * _Nullable(id<RACSubscriber>  _Nonnull subscriber) { 
         
         [subscriber sendCompleted];
         return [RACDisposable disposableWithBlock:^{}];

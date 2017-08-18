@@ -254,9 +254,6 @@
 #pragma mark - UIScrollViewDelegate
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView
 {
-    [self.view endEditing:YES];
-    if (self.view.superview) {
-        [self.view.superview endEditing:YES];
-    }
+    [[UIApplication sharedApplication].keyWindow endEditing:YES];
 }
 @end

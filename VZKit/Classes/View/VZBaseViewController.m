@@ -65,6 +65,6 @@
 
 - (void)fingerTapped
 {
-    [self.view endEditing:YES];
+    [[UIApplication sharedApplication].keyWindow endEditing:YES];
 }
 @end

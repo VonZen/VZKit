@@ -18,4 +18,5 @@
 
 @property (nonatomic, weak) id<VZSearchHistoryAndHotControllerDelegate> delegate; 
 
+- (void)addHistoryItem:(NSString *)keyword;
 @end
