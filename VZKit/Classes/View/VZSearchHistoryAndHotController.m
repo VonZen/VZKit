@@ -171,8 +171,7 @@
 }
 
 #pragma mark - FsTagViewDelegate
-- (void)tagTaped:(NSInteger)index
-{
+- (void)tagView:(VZTagView *)tagView tagTaped:(NSInteger)index{
     if (self.delegate && [self.delegate respondsToSelector:@selector(clickedHotItem:)]) {
         NSString *keyword = self.viewModel.hotKeywords[index];
         [self.delegate clickedHotItem:keyword];
