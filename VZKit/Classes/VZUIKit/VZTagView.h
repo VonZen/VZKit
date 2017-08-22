@@ -7,9 +7,11 @@
 
 #import <UIKit/UIKit.h>
 
+@class VZTagView;
+
 @protocol  VZTagViewDelegate<NSObject>
 
-- (void)tagTaped:(NSInteger)index;
+- (void)tagView:(VZTagView *)tagView tagTaped:(NSInteger)index;
 
 @end
 

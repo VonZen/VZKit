@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		361EB20F1F4C00D20015180A /* VZPopMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 361EB2081F4C00D20015180A /* VZPopMenu.m */; };
+		361EB2101F4C00D20015180A /* VZPopMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 361EB20A1F4C00D20015180A /* VZPopMenuCell.m */; };
+		361EB2111F4C00D20015180A /* VZPopMenuConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 361EB20C1F4C00D20015180A /* VZPopMenuConfig.m */; };
+		361EB2121F4C00D20015180A /* VZPopMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 361EB20E1F4C00D20015180A /* VZPopMenuView.m */; };
 		369998091F32C4B000603FD3 /* VZTagView.m in Sources */ = {isa = PBXBuildFile; fileRef = 369998071F32C4B000603FD3 /* VZTagView.m */; };
 		369998101F32D1D100603FD3 /* UIImage+VZUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 3699980F1F32D1D100603FD3 /* UIImage+VZUtil.m */; };
 		369998341F3310A000603FD3 /* VZMenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3699982A1F3310A000603FD3 /* VZMenuButton.m */; };
@@ -30,6 +34,14 @@
 
 /* Begin PBXFileReference section */
 		1101324E309E23F9175DCC9D /* Pods_VZKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VZKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		361EB2071F4C00D20015180A /* VZPopMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VZPopMenu.h; sourceTree = "<group>"; };
+		361EB2081F4C00D20015180A /* VZPopMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VZPopMenu.m; sourceTree = "<group>"; };
+		361EB2091F4C00D20015180A /* VZPopMenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VZPopMenuCell.h; sourceTree = "<group>"; };
+		361EB20A1F4C00D20015180A /* VZPopMenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VZPopMenuCell.m; sourceTree = "<group>"; };
+		361EB20B1F4C00D20015180A /* VZPopMenuConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VZPopMenuConfig.h; sourceTree = "<group>"; };
+		361EB20C1F4C00D20015180A /* VZPopMenuConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VZPopMenuConfig.m; sourceTree = "<group>"; };
+		361EB20D1F4C00D20015180A /* VZPopMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VZPopMenuView.h; sourceTree = "<group>"; };
+		361EB20E1F4C00D20015180A /* VZPopMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VZPopMenuView.m; sourceTree = "<group>"; };
 		362EB0431F21F51D00267294 /* VZAlignmentLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VZAlignmentLabel.h; sourceTree = "<group>"; };
 		362EB0441F21F51D00267294 /* VZAlignmentLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VZAlignmentLabel.m; sourceTree = "<group>"; };
 		362EB04D1F21F67700267294 /* UIColor+VZUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+VZUtil.h"; sourceTree = "<group>"; };
@@ -117,9 +129,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		361EB2061F4C00D20015180A /* VZPopMenu */ = {
+			isa = PBXGroup;
+			children = (
+				361EB2071F4C00D20015180A /* VZPopMenu.h */,
+				361EB2081F4C00D20015180A /* VZPopMenu.m */,
+				361EB2091F4C00D20015180A /* VZPopMenuCell.h */,
+				361EB20A1F4C00D20015180A /* VZPopMenuCell.m */,
+				361EB20B1F4C00D20015180A /* VZPopMenuConfig.h */,
+				361EB20C1F4C00D20015180A /* VZPopMenuConfig.m */,
+				361EB20D1F4C00D20015180A /* VZPopMenuView.h */,
+				361EB20E1F4C00D20015180A /* VZPopMenuView.m */,
+			);
+			path = VZPopMenu;
+			sourceTree = "<group>";
+		};
 		362EB0421F21F51D00267294 /* VZUIKit */ = {
 			isa = PBXGroup;
 			children = (
+				361EB2061F4C00D20015180A /* VZPopMenu */,
 				369998281F3310A000603FD3 /* VZNavigationMenu */,
 				369998081F32C4B000603FD3 /* VZTagView.h */,
 				369998071F32C4B000603FD3 /* VZTagView.m */,
@@ -428,6 +456,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				369998341F3310A000603FD3 /* VZMenuButton.m in Sources */,
+				361EB2121F4C00D20015180A /* VZPopMenuView.m in Sources */,
 				529EF8881F1EF77200515CAD /* VZBaseRequest.m in Sources */,
 				3699984A1F3326B800603FD3 /* VZSearchHistoryCell.m in Sources */,
 				369998491F3326B800603FD3 /* VZSearchHistoryAndHotController.m in Sources */,
@@ -437,9 +466,12 @@
 				529EF8891F1EF77200515CAD /* VZNetworkServer.m in Sources */,
 				369998351F3310A000603FD3 /* VZMenuCollectionView.m in Sources */,
 				369998371F3310A000603FD3 /* VZNavigationMenuCell.m in Sources */,
+				361EB2111F4C00D20015180A /* VZPopMenuConfig.m in Sources */,
+				361EB20F1F4C00D20015180A /* VZPopMenu.m in Sources */,
 				529EF88A1F1EF77200515CAD /* VZResponseCache.m in Sources */,
 				369998361F3310A000603FD3 /* VZNavigationMenu.m in Sources */,
 				369998091F32C4B000603FD3 /* VZTagView.m in Sources */,
+				361EB2101F4C00D20015180A /* VZPopMenuCell.m in Sources */,
 				369998381F3310A000603FD3 /* VZNavigationMenuConfig.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

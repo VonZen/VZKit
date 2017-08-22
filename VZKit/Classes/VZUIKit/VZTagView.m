@@ -86,8 +86,8 @@
 
 - (void)buttonTaped:(UIButton *)button
 {
-    if (self.delegate && [self.delegate respondsToSelector:@selector(tagTaped:)]) {
-        [self.delegate tagTaped:button.tag];
+    if (self.delegate && [self.delegate respondsToSelector:@selector(tagView:tagTaped:)]) {
+        [self.delegate tagView:self tagTaped:button.tag];
     }
 }
 @end
