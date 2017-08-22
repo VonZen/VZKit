@@ -149,7 +149,7 @@
     return view;
 }
 
-- (void)tableViewCellSelectAfter:(NSIndexPath *)indexPath
+- (void)cellSelectAfter:(NSIndexPath *)indexPath
 {
     if (indexPath.section == 0) {
         if (self.delegate && [self.delegate respondsToSelector:@selector(clickedHistoryItem:)]) {
@@ -173,8 +173,7 @@
 #pragma mark - FsTagViewDelegate
 - (void)tagView:(VZTagView *)tagView tagTaped:(NSInteger)index{
     if (self.delegate && [self.delegate respondsToSelector:@selector(clickedHotItem:)]) {
-        NSString *keyword = self.viewModel.hotKeywords[index];
-        [self.delegate clickedHotItem:keyword];
+        [self.delegate clickedHotItem:index];
     }
 }
 

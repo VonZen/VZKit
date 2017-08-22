@@ -8,6 +8,9 @@
 #import "VZPopMenu.h"
 #import "VZPopMenuConfig.h"
 
+#define kScreenW ([UIScreen mainScreen].bounds.size.width)
+#define kScreenH ([UIScreen mainScreen].bounds.size.height)
+
 @interface VZPopMenu ()<UIGestureRecognizerDelegate>
 
 @property (nonatomic, strong) UIView *backgroundView;

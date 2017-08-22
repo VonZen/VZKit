@@ -10,7 +10,7 @@
 @implementation VZPopMenuConfig
 
 + (VZPopMenuConfig *)defaultConfiguration
-{VZPopMenuConfig
+{
     static dispatch_once_t once = 0;
     static VZPopMenuConfig *configuration;
     dispatch_once(&once, ^{ configuration = [[VZPopMenuConfig alloc] init]; });

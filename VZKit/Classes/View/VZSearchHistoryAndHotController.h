@@ -11,7 +11,7 @@
 
 - (void)clickedHistoryItem:(NSString *)keyword;
 
-- (void)clickedHotItem:(NSString *)keyword;
+- (void)clickedHotItem:(NSInteger)index;
 
 @end
 @interface VZSearchHistoryAndHotController : VZTableViewController
