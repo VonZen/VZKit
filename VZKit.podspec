@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'VZKit'
-  s.version          = '1.4.1'
+  s.version          = '1.4.2'
   s.summary          = 'VZKit is a kit for develop iOS app.'
 
 
@@ -19,9 +19,9 @@ VZKit is a kit for develop iOS app,VZKit is a kit for develop iOS app.
 
   s.source_files = 'VZKit/Classes/**/*'
   
-#s.resource_bundles = {
-#   'VZKit' => ['VZKit/Assets/*.png']
-#}
+  s.resource_bundles = {
+     'VZKit' => ['VZKit/Assets/**/*.png']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
    s.frameworks = 'UIKit'

@@ -11,6 +11,7 @@
 		361EB2101F4C00D20015180A /* VZPopMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 361EB20A1F4C00D20015180A /* VZPopMenuCell.m */; };
 		361EB2111F4C00D20015180A /* VZPopMenuConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 361EB20C1F4C00D20015180A /* VZPopMenuConfig.m */; };
 		361EB2121F4C00D20015180A /* VZPopMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 361EB20E1F4C00D20015180A /* VZPopMenuView.m */; };
+		363426E81F4EA9E9003DE73F /* icon_search_history_delete.png in Resources */ = {isa = PBXBuildFile; fileRef = 363426E71F4EA9E9003DE73F /* icon_search_history_delete.png */; };
 		369998091F32C4B000603FD3 /* VZTagView.m in Sources */ = {isa = PBXBuildFile; fileRef = 369998071F32C4B000603FD3 /* VZTagView.m */; };
 		369998101F32D1D100603FD3 /* UIImage+VZUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 3699980F1F32D1D100603FD3 /* UIImage+VZUtil.m */; };
 		369998341F3310A000603FD3 /* VZMenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3699982A1F3310A000603FD3 /* VZMenuButton.m */; };
@@ -70,6 +71,7 @@
 		363366781F21D4B900A8F5EB /* VZTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VZTableViewCell.m; sourceTree = "<group>"; };
 		363366791F21D4B900A8F5EB /* VZTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VZTableViewController.h; sourceTree = "<group>"; };
 		3633667A1F21D4B900A8F5EB /* VZTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VZTableViewController.m; sourceTree = "<group>"; };
+		363426E71F4EA9E9003DE73F /* icon_search_history_delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_search_history_delete.png; sourceTree = "<group>"; };
 		369998071F32C4B000603FD3 /* VZTagView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VZTagView.m; sourceTree = "<group>"; };
 		369998081F32C4B000603FD3 /* VZTagView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VZTagView.h; sourceTree = "<group>"; };
 		3699980E1F32D1D100603FD3 /* UIImage+VZUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+VZUtil.h"; sourceTree = "<group>"; };
@@ -220,6 +222,15 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		363426E61F4EA9E9003DE73F /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				363426E71F4EA9E9003DE73F /* icon_search_history_delete.png */,
+			);
+			name = Assets;
+			path = ../VZKit/Assets;
+			sourceTree = "<group>";
+		};
 		369998281F3310A000603FD3 /* VZNavigationMenu */ = {
 			isa = PBXGroup;
 			children = (
@@ -267,6 +278,7 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				363426E61F4EA9E9003DE73F /* Assets */,
 				529EF8801F1EF77200515CAD /* Classes */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -396,6 +408,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				363426E81F4EA9E9003DE73F /* icon_search_history_delete.png in Resources */,
 				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

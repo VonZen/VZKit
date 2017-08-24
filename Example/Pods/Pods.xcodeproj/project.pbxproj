@@ -634,6 +634,7 @@
 		361EB1FF1F4BFE0D0015180A /* VZPopMenuCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VZPopMenuCell.m; sourceTree = "<group>"; };
 		361EB2021F4BFE230015180A /* VZPopMenuConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VZPopMenuConfig.h; sourceTree = "<group>"; };
 		361EB2031F4BFE230015180A /* VZPopMenuConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VZPopMenuConfig.m; sourceTree = "<group>"; };
+		363426E51F4EA9D7003DE73F /* icon_search_history_delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_search_history_delete.png; sourceTree = "<group>"; };
 		36367401246BB92F77FF4764FA9C2B94 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		365DEFA06DB9DD35960B8F9D1BE08552 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
 		366941CCA632ABF60E7B3C0968DCFF92 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -1156,6 +1157,14 @@
 			path = VZPopMenu;
 			sourceTree = "<group>";
 		};
+		363426E31F4EA73A003DE73F /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				363426E51F4EA9D7003DE73F /* icon_search_history_delete.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 		369998111F32F5A700603FD3 /* VZNavigationMenu */ = {
 			isa = PBXGroup;
 			children = (
@@ -1613,6 +1622,7 @@
 		DDBFDF56A3440AFE3DDBBD7EDFDE2A13 /* VZKit */ = {
 			isa = PBXGroup;
 			children = (
+				363426E31F4EA73A003DE73F /* Assets */,
 				9BA4A2011FABC25595990DB6F7B19544 /* Classes */,
 			);
 			path = VZKit;

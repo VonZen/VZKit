@@ -76,7 +76,7 @@
 - (UIButton *)deleteButton
 {
     if (!_deleteButton) {
-        _deleteButton = [VZControlCreator createButtonWithImage:@"icon_history_delete" withSelected:@"icon_history_delete_selected"];
+        _deleteButton = [VZControlCreator createButtonWithImage:@"icon_search_history_delete" withSelected:@"icon_search_history_delete"];
         [_deleteButton addTarget:self action:@selector(deleteHistoryItem:) forControlEvents:UIControlEventTouchUpInside];
     }
     
