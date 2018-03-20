@@ -1,6 +1,6 @@
 {
   "name": "VZKit",
-  "version": "1.2.0",
+  "version": "1.4.3",
   "summary": "VZKit is a kit for develop iOS app.",
   "description": "VZKit is a kit for develop iOS app,VZKit is a kit for develop iOS app.",
   "homepage": "https://github.com/VonZen/VZKit",
@@ -13,12 +13,17 @@
   },
   "source": {
     "git": "https://github.com/VonZen/VZKit.git",
-    "tag": "1.2.0"
+    "tag": "1.4.3"
   },
   "platforms": {
     "ios": "8.0"
   },
   "source_files": "VZKit/Classes/**/*",
+  "resource_bundles": {
+    "VZKit": [
+      "VZKit/Assets/**/*.png"
+    ]
+  },
   "frameworks": "UIKit",
   "dependencies": {
     "AFNetworking": [
@@ -38,6 +43,9 @@
     ],
     "DZNEmptyDataSet": [
       "~> 1.8.1"
+    ],
+    "FMDB": [
+      "~> 2.7.2"
     ]
   }
 }

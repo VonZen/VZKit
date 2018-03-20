@@ -15,13 +15,17 @@ PODS:
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
   - DZNEmptyDataSet (1.8.1)
+  - FMDB (2.7.2):
+    - FMDB/standard (= 2.7.2)
+  - FMDB/standard (2.7.2)
   - Masonry (1.0.2)
   - MJExtension (3.0.13)
   - MJRefresh (3.1.12)
   - ReactiveObjC (3.0.0)
-  - VZKit (1.2.0):
+  - VZKit (1.4.3):
     - AFNetworking (~> 3.1.0)
     - DZNEmptyDataSet (~> 1.8.1)
+    - FMDB (~> 2.7.2)
     - Masonry (~> 1.0.2)
     - MJExtension (~> 3.0.13)
     - MJRefresh (~> 3.1.12)
@@ -30,6 +34,7 @@ PODS:
 DEPENDENCIES:
   - AFNetworking (~> 3.1.0)
   - DZNEmptyDataSet (~> 1.8.1)
+  - FMDB (~> 2.7.2)
   - Masonry (~> 1.0.2)
   - MJExtension (~> 3.0.13)
   - MJRefresh (~> 3.1.12)
@@ -43,12 +48,13 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  FMDB: 6198a90e7b6900cfc046e6bc0ef6ebb7be9236aa
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   MJExtension: 5932755f451458eefa24239358817f8d291240c7
   MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
   ReactiveObjC: ce79989e8684b9086b5f8d0c74bc7b81a8729c9e
-  VZKit: df3af7418593aec3f5219b986897a949178f93c9
+  VZKit: cc1b1e6d674ed0cecbdc3635cdffc5963a29ec43
 
-PODFILE CHECKSUM: 56f11af16fa01242229e907283f30361dd6eb0c7
+PODFILE CHECKSUM: 38b858bbdc753054ccce64be0e7602fb8e4f125c
 
-COCOAPODS: 1.2.1
+COCOAPODS: 1.3.1

@@ -12,6 +12,9 @@
 		361EB2111F4C00D20015180A /* VZPopMenuConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 361EB20C1F4C00D20015180A /* VZPopMenuConfig.m */; };
 		361EB2121F4C00D20015180A /* VZPopMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 361EB20E1F4C00D20015180A /* VZPopMenuView.m */; };
 		363426E81F4EA9E9003DE73F /* icon_search_history_delete.png in Resources */ = {isa = PBXBuildFile; fileRef = 363426E71F4EA9E9003DE73F /* icon_search_history_delete.png */; };
+		366ACFDD2060BB470014DCF9 /* VZDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 366ACFDC2060BB470014DCF9 /* VZDownloadManager.m */; };
+		366ACFDE2060D2580014DCF9 /* VZDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 366ACFD92060BB380014DCF9 /* VZDownloader.m */; };
+		366ACFDF2060D2690014DCF9 /* VZDownloadDBHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 366ACFD62060BB240014DCF9 /* VZDownloadDBHandler.m */; };
 		369998091F32C4B000603FD3 /* VZTagView.m in Sources */ = {isa = PBXBuildFile; fileRef = 369998071F32C4B000603FD3 /* VZTagView.m */; };
 		369998101F32D1D100603FD3 /* UIImage+VZUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 3699980F1F32D1D100603FD3 /* UIImage+VZUtil.m */; };
 		369998341F3310A000603FD3 /* VZMenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3699982A1F3310A000603FD3 /* VZMenuButton.m */; };
@@ -72,6 +75,12 @@
 		363366791F21D4B900A8F5EB /* VZTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VZTableViewController.h; sourceTree = "<group>"; };
 		3633667A1F21D4B900A8F5EB /* VZTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VZTableViewController.m; sourceTree = "<group>"; };
 		363426E71F4EA9E9003DE73F /* icon_search_history_delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_search_history_delete.png; sourceTree = "<group>"; };
+		366ACFD52060BB240014DCF9 /* VZDownloadDBHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VZDownloadDBHandler.h; sourceTree = "<group>"; };
+		366ACFD62060BB240014DCF9 /* VZDownloadDBHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VZDownloadDBHandler.m; sourceTree = "<group>"; };
+		366ACFD82060BB380014DCF9 /* VZDownloader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VZDownloader.h; sourceTree = "<group>"; };
+		366ACFD92060BB380014DCF9 /* VZDownloader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VZDownloader.m; sourceTree = "<group>"; };
+		366ACFDB2060BB470014DCF9 /* VZDownloadManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VZDownloadManager.h; sourceTree = "<group>"; };
+		366ACFDC2060BB470014DCF9 /* VZDownloadManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VZDownloadManager.m; sourceTree = "<group>"; };
 		369998071F32C4B000603FD3 /* VZTagView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VZTagView.m; sourceTree = "<group>"; };
 		369998081F32C4B000603FD3 /* VZTagView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VZTagView.h; sourceTree = "<group>"; };
 		3699980E1F32D1D100603FD3 /* UIImage+VZUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+VZUtil.h"; sourceTree = "<group>"; };
@@ -231,6 +240,19 @@
 			path = ../VZKit/Assets;
 			sourceTree = "<group>";
 		};
+		366ACFD42060BA250014DCF9 /* Downloader */ = {
+			isa = PBXGroup;
+			children = (
+				366ACFD52060BB240014DCF9 /* VZDownloadDBHandler.h */,
+				366ACFD62060BB240014DCF9 /* VZDownloadDBHandler.m */,
+				366ACFD82060BB380014DCF9 /* VZDownloader.h */,
+				366ACFD92060BB380014DCF9 /* VZDownloader.m */,
+				366ACFDB2060BB470014DCF9 /* VZDownloadManager.h */,
+				366ACFDC2060BB470014DCF9 /* VZDownloadManager.m */,
+			);
+			path = Downloader;
+			sourceTree = "<group>";
+		};
 		369998281F3310A000603FD3 /* VZNavigationMenu */ = {
 			isa = PBXGroup;
 			children = (
@@ -252,6 +274,7 @@
 		529EF8801F1EF77200515CAD /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				366ACFD42060BA250014DCF9 /* Downloader */,
 				362EB04B1F21F67700267294 /* Utils */,
 				362EB0421F21F51D00267294 /* VZUIKit */,
 				3633666F1F21D4B900A8F5EB /* View */,
@@ -422,13 +445,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VZKit_Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		68DC5469A5C9AE5E03B34F32 /* [CP] Copy Pods Resources */ = {
@@ -452,9 +478,26 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-VZKit_Tests/Pods-VZKit_Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/DZNEmptyDataSet/DZNEmptyDataSet.framework",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
+				"${BUILT_PRODUCTS_DIR}/VZKit/VZKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DZNEmptyDataSet.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VZKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -468,7 +511,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				366ACFDF2060D2690014DCF9 /* VZDownloadDBHandler.m in Sources */,
+				366ACFDE2060D2580014DCF9 /* VZDownloader.m in Sources */,
 				369998341F3310A000603FD3 /* VZMenuButton.m in Sources */,
+				366ACFDD2060BB470014DCF9 /* VZDownloadManager.m in Sources */,
 				361EB2121F4C00D20015180A /* VZPopMenuView.m in Sources */,
 				529EF8881F1EF77200515CAD /* VZBaseRequest.m in Sources */,
 				3699984A1F3326B800603FD3 /* VZSearchHistoryCell.m in Sources */,

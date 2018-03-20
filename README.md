@@ -22,7 +22,7 @@ pod "VZKit"
 
 ## Author
 
-davonzhou@live.com, zhoudj@fun.tv
+davonzhou@live.com
 
 ## License
 

@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'VZKit'
-  s.version          = '1.4.2'
+  s.version          = '1.4.3'
   s.summary          = 'VZKit is a kit for develop iOS app.'
 
 
@@ -31,4 +31,5 @@ VZKit is a kit for develop iOS app,VZKit is a kit for develop iOS app.
    s.dependency 'ReactiveObjC', '~> 3.0.0'
    s.dependency 'Masonry', '~> 1.0.2'
    s.dependency 'DZNEmptyDataSet', '~> 1.8.1'
+   s.dependency 'FMDB', '~> 2.7.2'
 end

@@ -9,4 +9,5 @@ target 'VZKit_Tests' do
   pod 'ReactiveObjC', '~> 3.0.0'
   pod 'Masonry', '~> 1.0.2'
   pod 'DZNEmptyDataSet', '~> 1.8.1'
+  pod 'FMDB', '~> 2.7.2'
 end
